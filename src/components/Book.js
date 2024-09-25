@@ -21,7 +21,8 @@ const Book = () => {
 					<h2 className="font-bold text-[25px] text-blue-500">बुकिंग फॉर्म</h2>
 					<p className="font-bold text-[15px]">आइए हम आपके घर को बेहतर बनाएं</p>
 				</div>
-				<form 
+				<form
+					id="fs-frm" 
 					onSubmit={handleSubmit}
 					className="flex flex-col gap-4"
 					method="POST"
@@ -43,7 +44,7 @@ const Book = () => {
 								cols="2" rows="3" placeholder="" name='address'>
 						</textarea>
 					</div>
-						<div className="flex flex-col">
+						{/* <div className="flex flex-col">
 							<label htmlFor="workType">विकल्प</label>
 							<select id='workType' name="workType"
 								className='rounded-md border border-gray-300 outline-none'>
@@ -53,13 +54,27 @@ const Book = () => {
 								<option>लीक पाइप की मरम्मत और प्रतिस्थापन</option>
 								<option>अन्य कार्य</option>
 						  </select>
-						</div>
+						</div> */}
+
+						<fieldset id="fs-frm-selects">
+							<label for="timely">1. The service provided was completed in a timely manner.</label>
+							<select name="timely" id="timely" required="">
+								<option value="" selected="" disabled="">Choose</option>
+								<option value="1">Strongly Agree</option>
+								<option value="3">Agree</option>
+								<option value="5">Neutral</option>
+								<option value="7">Disagree</option>
+								<option value="9">Strongly Disagree</option>
+							</select>
+						</fieldset>
 					<button
 						type='submit'
 						className="p-3 text-white font-bold px-8 border rounded-md bg-paleBlue hover:opacity-90 active:bg-deepBlue  border-paleBlue duration-100">
 						अभी बुक करें
 					</button>
 			  </form>
+
+					
 			</div>
 			<div className="hidden md:flex">
 				<img src="https://images.unsplash.com/photo-1552143233-c29bb1292978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
