@@ -1,8 +1,9 @@
 import { useForm, ValidationError } from '@formspree/react';
 import { useNavigate } from 'react-router';
+import image from '../gallery/laterUse/sachinonweb.png';
 
 const Book = () => {
-	const [state, handleSubmit] = useForm('mlekdkoe');
+	const [state, handleSubmit] = useForm('xnnakkbg');
 	const navigate = useNavigate();
 
 	if (state.succeeded) {
@@ -26,7 +27,7 @@ const Book = () => {
 					onSubmit={handleSubmit}
 					className="flex flex-col gap-4"
 					method="POST"
-					action="https://formspree.io/f/xqazvgbl"
+					action="https://formspree.io/f/xnnakkbg"
 					name="hire-me">
 					<div className="flex flex-col gap-1">
 						<label htmlFor="fullName">नाम</label>
@@ -34,7 +35,7 @@ const Book = () => {
 						{/* <ValidationError field="text" prefix="Text" errors={state.errors} /> */}
 					</div>
 					<div className="flex flex-col gap-1">
-						<label htmlFor="text">ईमेल / फ़ोन</label>
+						<label htmlFor="text">फ़ोन नंबर</label>
 						<input className="w-full rounded-md border border-gray-300 outline-none" type="text" placeholder="" name='text'/>
 						{/* <ValidationError field="email" prefix="Email" errors={state.errors} /> */}
 					</div>
@@ -48,11 +49,11 @@ const Book = () => {
 							<label htmlFor="workType">विकल्प</label>
 							<select id='workType' name="workType"
 								className='rounded-md border border-gray-300 outline-none'>
-								<option value="1">नई वायरिंग सिस्टम की स्थापना</option>
-								<option value="2">सॉकेट, स्विच और विद्युत उपकरणों की इंस्टालेशन</option>
-								<option value="3">नए पाइपलाइन सिस्टम की स्थापना</option>
-								<option value="4">लीक पाइप की मरम्मत और प्रतिस्थापन</option>
-								<option value="5">अन्य कार्य</option>
+								<option>नई वायरिंग सिस्टम की स्थापना</option>
+								<option >सॉकेट, स्विच और विद्युत उपकरणों की इंस्टालेशन</option>
+								<option >नए पाइपलाइन सिस्टम की स्थापना</option>
+								<option >लीक पाइप की मरम्मत और प्रतिस्थापन</option>
+								<option >अन्य कार्य</option>
 						  </select>
 						</div>
 
@@ -77,7 +78,7 @@ const Book = () => {
 					
 			</div>
 			<div className="hidden md:flex">
-				<img src="https://images.unsplash.com/photo-1552143233-c29bb1292978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
+				<img src={image}/>
 			</div>
 			</div>
 		</>
