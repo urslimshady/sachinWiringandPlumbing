@@ -31,12 +31,12 @@ const Book = () => {
 					<div className="flex flex-col gap-1">
 						<label htmlFor="fullName">नाम</label>
 						<input className="w-full rounded-md border border-gray-300 outline-none" type="text" id="fullName" placeholder="" name='fullName' />
-						<ValidationError field="text" prefix="Text" errors={state.errors} />
+						{/* <ValidationError field="text" prefix="Text" errors={state.errors} /> */}
 					</div>
 					<div className="flex flex-col gap-1">
 						<label htmlFor="text">ईमेल / फ़ोन</label>
 						<input className="w-full rounded-md border border-gray-300 outline-none" type="text" placeholder="" name='text'/>
-						<ValidationError field="email" prefix="Email" errors={state.errors} />
+						{/* <ValidationError field="email" prefix="Email" errors={state.errors} /> */}
 					</div>
 					<div className="flex flex-col">
 						<label htmlFor="date">पता</label>
@@ -44,19 +44,19 @@ const Book = () => {
 								cols="2" rows="3" placeholder="" name='address'>
 						</textarea>
 					</div>
-						{/* <div className="flex flex-col">
+						<div className="flex flex-col">
 							<label htmlFor="workType">विकल्प</label>
 							<select id='workType' name="workType"
 								className='rounded-md border border-gray-300 outline-none'>
-								<option>नई वायरिंग सिस्टम की स्थापना</option>
-								<option>सॉकेट, स्विच और विद्युत उपकरणों की इंस्टालेशन</option>
-								<option>नए पाइपलाइन सिस्टम की स्थापना</option>
-								<option>लीक पाइप की मरम्मत और प्रतिस्थापन</option>
-								<option>अन्य कार्य</option>
+								<option value="1">नई वायरिंग सिस्टम की स्थापना</option>
+								<option value="2">सॉकेट, स्विच और विद्युत उपकरणों की इंस्टालेशन</option>
+								<option value="3">नए पाइपलाइन सिस्टम की स्थापना</option>
+								<option value="4">लीक पाइप की मरम्मत और प्रतिस्थापन</option>
+								<option value="5">अन्य कार्य</option>
 						  </select>
-						</div> */}
+						</div>
 
-						<fieldset id="fs-frm-selects">
+						{/* <fieldset id="fs-frm-selects">
 							<label for="timely">1. The service provided was completed in a timely manner.</label>
 							<select name="timely" id="timely" required="">
 								<option value="" selected="" disabled="">Choose</option>
@@ -66,7 +66,7 @@ const Book = () => {
 								<option value="7">Disagree</option>
 								<option value="9">Strongly Disagree</option>
 							</select>
-						</fieldset>
+						</fieldset> */}
 					<button
 						type='submit'
 						className="p-3 text-white font-bold px-8 border rounded-md bg-paleBlue hover:opacity-90 active:bg-deepBlue  border-paleBlue duration-100">
