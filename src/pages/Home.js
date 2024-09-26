@@ -43,7 +43,7 @@ const Home = () => {
           <img
             className="h-[620px] w-full bg-image"
             src={Image && Image}
-            alt="four white ceramic urinal sink"
+            alt=""
           />
           <div className="absolute bg-[#0f2b5b99] top-0 left-0 right-0 bottom-0"/>
         </div>
