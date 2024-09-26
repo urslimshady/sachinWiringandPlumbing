@@ -60,7 +60,7 @@ const Banner = () => {
           <span className="absolute top-0 left-0 right-0 bottom-0 overlay">
           </span>
         </div>
-        <div className="relative">
+        {/* <div className="relative">
           <img
             className="h-[400px]"
             src="https://images.unsplash.com/photo-1518618750560-8f07abde4e4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=986&q=80"
@@ -68,7 +68,7 @@ const Banner = () => {
           />
           <span className="absolute top-0 left-0 right-0 bottom-0 overlay">
           </span>
-        </div>
+        </div> */}
       </Carousel>
     </div>
   );

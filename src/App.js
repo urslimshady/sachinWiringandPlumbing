@@ -18,10 +18,10 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Expert Plumbing Services in Lagos, Nigeria | Kasbass Plumbing Services</title>
-        <meta name="description" content="Kasbass Plumbing Services offers expert plumbing services in Lagos, Nigeria. Contact us today for a free quote!" />
-        <meta name="keywords" content="plumbing services, Lagos, Nigeria, Kasbass Plumbing Services |have knowledgeable and experienced technicians, offer competitive pricing, and use high-quality materials. |Experience the Best Plumbing Services in Nigeria with Be Plumbing Services!" />
-        <meta name="author" content="Kasbass Plumbing Services" />
+        <title>रोह, नवादा में विशेषज्ञ प्लंबिंग और वायरिंग सेवाएँ | सचिन प्लंबिंग एवं वायरिंग सेवाएँ</title>
+        <meta name="description" content="सचिन प्लंबिंग एंड वायरिंग सर्विसेज रोह, नवादा में विशेषज्ञ प्लंबिंग सेवाएं प्रदान करती है। निःशुल्क कोट के लिए हमसे आज ही संपर्क करें!" />
+        <meta name="keywords" content="प्लंबिंग और वायरिंग सेवाएं, रोह, नवादा, सचिन प्लंबिंग और वायरिंग सर्विसेज | के पास जानकार और अनुभवी तकनीशियन हैं, प्रतिस्पर्धी मूल्य निर्धारण की पेशकश करते हैं, और उच्च गुणवत्ता वाली सामग्री का उपयोग करते हैं। | प्लंबिंग सेवाओं के साथ रोह में सर्वश्रेष्ठ प्लंबिंग सेवाओं का अनुभव लें!" />
+        <meta name="author" content="सचिन प्लंबिंग एंड वायरिंग सर्विसेज" />
       </Helmet>
        <div className="box-sizing:border-box bg-gray-100">
       <Routes>
@@ -37,7 +37,7 @@ function App() {
       </Routes>
       <AiOutlineMessage
         className="chat cursor-pointer  p-3 fixed
-          bottom-20 right-4 h-16 w-16 z-50 rounded-full"
+          bottom-20 right-4 h-16 w-16 z-50 rounded-full"        
         onClick={() => setOpen(!open)}
       />
       {open && <ChatModal />}

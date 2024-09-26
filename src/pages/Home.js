@@ -1,15 +1,15 @@
 import React, {useEffect, useState} from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Testimonial from "../components/Testimonial";
+// import Testimonial from "../components/Testimonial";
 import { service } from '../functions/pictures'
-import { feedback } from '../functions/customerFeedback'
+// import { feedback } from '../functions/customerFeedback'
 import Card from '../components/Card';
 import Project from '../components/Project';
 import Choose from '../components/Choose';
 import image from '../functions/bgImage';
 import Book from "../components/Book";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 const Home = () => {
   const [Image, setImage] = useState('')

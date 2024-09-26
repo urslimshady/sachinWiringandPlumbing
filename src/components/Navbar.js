@@ -15,14 +15,14 @@ const Navbar = () => {
         </div>
         <div className="bg-paleBlue w-2/3 p-3 flex justify-end items-center md:pr-20">
           <div className='flex space-x-3'>
-          <a href="https://www.facebook.com/profile.php?id=100063464694068&mibextid=ZbWKwL"
+          <a href="https://www.facebook.com/sachin.rawat.528316"
             target="_blank" rel="noreferrer" >
             <img className="circle" src={facebook} alt="facebook logo" />
           </a>
           {/* <a href="https://mobile.twitter.com/GasaliAbass" target="_blank" rel="noreferrer">
             <img className="circle" src={twitter} alt="twitter logo" />
           </a> */}
-          <a href=" https://www.instagram.com/invites/contact/?i=mi29glvkp6z6&utm_content=gwkaofn" target="_blank" rel="noreferrer">
+          <a href="https://www.instagram.com/sachinbadmash92?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer">
             <img className="circle" src={google} alt="google logo" />
           </a>
           {/* <a href="https://www.linkedin.com/in/abass-kasali-369911247" target="_blank" rel="noreferrer">
@@ -46,7 +46,7 @@ const Navbar = () => {
             </span>
             <div className="flex flex-col justify-center items-baseline">
               <p className="font-bold">हमें ईमेल करें</p>
-              <a href="mailto:kasbassnigenterprises@gmail.com" className="text-sm grey">@kasbassnigenterprises@gmail.com</a>
+              <a href="mailto:sachinbadmash92@gmail.com" className="text-sm grey">sachinbadmash92@gmail.com</a>
             </div>
           </div>
           <div className="hidden md:flex space-x-3 items-center">

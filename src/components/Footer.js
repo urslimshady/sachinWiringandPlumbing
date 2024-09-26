@@ -34,7 +34,7 @@ const Footer = () => {
               </span>
               <div className='text-sm flex items-center'>
                   <EnvelopeIcon className='text-blue-500 h-4 w-4 mx-1'/>
-                  <a href="mailto:kasbassnigenterprises@gmail.com">kasbassnigenterprises@gmail.com</a>
+                  <a href="mailto:kasbassnigenterprises@gmail.com">sachinbadmash92@gmail.com</a>
               </div>
             </div>
           </address>
@@ -62,14 +62,14 @@ const Footer = () => {
       md:border-bottom-gray-200 p-3 connect px-6'>
         <h2 className='font-bold text-white text-[20px]'>Follow Us</h2>
         <div className='flex space-x-3'>
-          <a href="https://www.facebook.com/profile.php?id=100063464694068&mibextid=ZbWKwL"
+          <a href="https://www.facebook.com/sachin.rawat.528316"
             target="_blank" rel="noreferrer" >
             <img className="circle" src={facebook} alt="facebook logo" />
           </a>
           {/* <a href="https://mobile.twitter.com/GasaliAbass" target="_blank" rel="noreferrer">
             <img className="circle" src={twitter} alt="twitter logo" />
           </a> */}
-          <a href=" https://www.instagram.com/invites/contact/?i=mi29glvkp6z6&utm_content=gwkaofn" target="_blank" rel="noreferrer">
+          <a href="https://www.instagram.com/sachinbadmash92?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer">
             <img className="circle" src={google} alt="google logo" />
           </a>
           {/* <a href="https://www.linkedin.com/in/abass-kasali-369911247" target="_blank" rel="noreferrer">
